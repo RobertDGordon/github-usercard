@@ -62,8 +62,9 @@ body {
   background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 50px auto;
+  margin-bottom: 0px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -89,6 +90,18 @@ body {
 
 .cards {
   width: 100%;
+  max-width: 800px;
+}
+
+.followers {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.followers h1 {
+  font-size: 3.4rem;
+  margin-left:10px;
 }
 
 .card {
@@ -123,5 +136,12 @@ body {
   margin: 3px 0 10px;
 }
 
+.card .bio {
+  font-style: italic;
+}
 
-
+.calendar {
+  width: 860px;
+  margin-bottom: 20px;
+  background-color:lightgray;
+}
